@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Iconsmind-Outline-Calculator.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Calculando</h1>
+    <section>
+        <p>
+            <select>
+                <option value="Porcent">Porcentagem</option>
+                <option value="soma">Soma</option>
+                <option value="subt">Subtração</option>
+                <option value="multi">Multiplicação</option>
+                <option value="divi">Divisão</option>
+            </select>
+            </p> 
+            <input type="number" name="num" id="num">
+            <input type="number" name="num2" id="num2">
+            <input type="button" value="Calcular" onclick="calcular()">
+            
+            <div id="res">
+                <p>Resultado.</p>
+            </div>
+            <input type="button" value="Limpar" onclick="limpar()">
+    </section>
+    
+    <footer>
+        <p>&copy; Não deixe a chama apagar !!! &#x1F525</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
